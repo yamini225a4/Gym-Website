@@ -1,12 +1,24 @@
-# React + Vite
+🏋️ Gym Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive full-stack fitness website built using React + Vite for the frontend and Node.js + Express for the backend. The app includes features such as a BMI calculator, pricing plans, gallery of workout sessions, and a contact form with email functionality.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📊 BMI Calculator – Calculate Body Mass Index directly on the site.
 
-## Expanding the ESLint configuration
+💪 Workout Sessions – Display fitness programs and sessions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🖼️ Image Gallery – Showcase gym facilities and training.
+
+💰 Pricing Plans – Highlight different membership plans.
+
+📧 Contact Form with Email – Users can send inquiries via email.
+
+🌐 Responsive Design – Works across desktop and mobile devices.
+
+🛠️ Tech Stack
+
+Frontend: React, Vite, CSS
+Backend: Node.js, Express.js
+Email Service: Nodemailer (via sendEmail.js)
+Other: Environment variables (config.env)
